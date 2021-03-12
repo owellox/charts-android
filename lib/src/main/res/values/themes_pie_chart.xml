@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Base.Widget.Charts.PieChartLegend" parent="">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:minHeight">32dp</item>
+        <item name="android:textAlignment">gravity</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Caption</item>
+        <item name="legendIcon">@drawable/charts_legend_icon_circle_18</item>
+        <item name="legendIconSize">18dp</item>
+        <item name="legendIconTint">?colorPrimary</item>
+    </style>
+
+    <style name="Widget.Charts.PieChartLegend" parent="Base.Widget.Charts.PieChartLegend" />
+</resources>
