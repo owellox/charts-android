@@ -14,6 +14,6 @@
  * limitations under the License.
  */
 
-package com.owellox.android.charts
+package com.owellox.android.charts.data
 
-class BaseChart
+data class Point(val x: Float, val y: Float)
